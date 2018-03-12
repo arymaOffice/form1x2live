@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .logo-container {
-  height: 40vh;
+  height: 30vh;
 }
 
 .logo-container img {
@@ -16,3 +16,14 @@
   padding: 1em;
   height: 60vh;
 }
+
+.submit{
+  background-color: #ad1e24;
+}
+
+@media only screen and (max-width:350px){
+  .logo-container{
+    height: 11vh;
+    margin: 10px;
+  }
+} 
