@@ -11,18 +11,18 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="row center-align">
-      <div class="logo-container col s12">
-        <img src="images/1x2live-logo.jpg" alt="">
-      </div>
-    </div>
+  <div class="container valign-wrapper">
+
+    <section class="valign-wrapper logo-container col s12">
+      <img src="images/1x2live-logo.jpg" alt="">
+    </section>
+
     <section class="form">
       <form action="http://dev.1x2live.it/fl_api/register_user.php" method="POST">
 
         <div class="row center-align">
           <div class="input-field col s12">
-            <input  id="name" name="name" type="text" class="validate" required>
+            <input id="name" name="name" type="text" class="validate" required>
             <label class="active" for="name">Nome</label>
           </div>
         </div>
@@ -36,20 +36,20 @@
 
         <div class="row center-align">
           <div class="input-field col s12">
-            <input  id="email" name="email"  type="email" class="validate" required>
+            <input id="email" name="email" type="email" class="validate" required>
             <label class="active" for="email">E-mail</label>
           </div>
         </div>
 
         <div class="row center-align">
           <div class="input-field col s12">
-            <input  id="phone" name="phone" type="tel" class="validate" required>
+            <input id="phone" name="phone" type="tel" class="validate" required>
             <label class="active" for="phone">Telefono</label>
           </div>
         </div>
         <div class="row center-align">
           <div class="input-field col s12">
-            <button class="btn waves-effect waves-light btn-large submit" type="submit" >
+            <button class="btn waves-effect waves-light btn-large submit" type="submit">
               INVIA
             </button>
           </div>
